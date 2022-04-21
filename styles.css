@@ -1,33 +1,30 @@
-.calculator {
-  border: solid 30px;
-  height: 600px;
-  width: 400px;
-  background-color: black;
+.boarder {
+  border: solid 1rem blue;
+  width: 25rem;
+  height: 70vh;
+  background-image: url(./water-g24848f2dd_1920.jpg);
+  border-radius: 10%;
 }
 
-div#output {
-  height: 140px;
-  border: solid 5px;
-  color: blue;
-  background-color: lightgray;
-  margin-bottom: 30px;
-}
-
-.buttons-container {
+.button {
   display: flex;
+  gap: 2rem;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
   align-content: center;
   align-items: flex-start;
-  flex-direction: row-reverse;
 }
 
+#output {
+  border: solid black 0.5rem;
+  width: 24rem;
+  height: 10vh;
+  margin-bottom: 2rem;
+  border-radius: 12%;
+}
 button {
-  width: 19%;
-  aspect-ratio: 1;
-  color: black;
+  width: 20%;
   border-radius: 50%;
-  font-size: 30px;
-  background-color: orange;
+  aspect-ratio: 1;
 }
