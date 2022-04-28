@@ -1,9 +1,40 @@
-.boarder {
-  border: solid 1rem blue;
-  width: 25rem;
-  height: 70vh;
-  background-image: url(./water-g24848f2dd_1920.jpg);
-  border-radius: 10%;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(34, 34, 34);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./pic/bubbles-g66792aa78_1920.jpg);
+  background-size: cover;
+  background-position: 100%;
+}
+
+.container {
+  width: 400px;
+  height: 600px;
+  background-color: rgba(59, 58, 58, 0.5);
+  border-radius: 5px;
+  backdrop-filter: blur(3px);
+  border: 2px solid rgb(143, 142, 142);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(70, 70, 70, 0.5);
+  line-height: 1.5;
+}
+
+.box {
+  border: solid rgb(70, 70, 70) 0.5rem;
+  width: 395px;
+  height: 15vh;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  background-color: rgb(192, 189, 189);
 }
 
 .button {
@@ -16,14 +47,13 @@
   align-items: flex-start;
 }
 
-#output {
-  border: solid black 0.5rem;
-  width: 24rem;
-  height: 10vh;
-  border-radius: 12%;
-}
 button {
   width: 20%;
   border-radius: 50%;
   aspect-ratio: 1;
+  backdrop-filter: blur(20px);
+  background-color: rgba(151, 147, 147, 0.5);
+  border: black solid 0.3rem;
+  font-weight: bolder;
+  font-size: 30px;
 }
