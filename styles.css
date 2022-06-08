@@ -35,6 +35,12 @@ body {
   margin-bottom: 2rem;
   border-radius: 5px;
   background-color: rgb(192, 189, 189);
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  padding-right: 15px;
 }
 
 .button {
@@ -47,7 +53,7 @@ body {
   align-items: flex-start;
 }
 
-button {
+.buttons {
   width: 20%;
   border-radius: 50%;
   aspect-ratio: 1;
@@ -56,4 +62,16 @@ button {
   border: black solid 0.3rem;
   font-weight: bolder;
   font-size: 30px;
+}
+
+.clear {
+  width: 95%;
+  border-radius: 5px;
+  aspect-ratio: 1;
+  backdrop-filter: blur(20px);
+  background-color: rgba(151, 147, 147, 0.5);
+  border: black solid 0.3rem;
+  font-weight: bolder;
+  font-size: 30px;
+  height: 50px;
 }
